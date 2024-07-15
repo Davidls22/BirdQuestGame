@@ -5,7 +5,7 @@ import GameOverModal from './GameOverModal'; // Import the modal component
 
 const BirdQuest = () => {
     const [score, setScore] = useState(0);
-    const [timer, setTimer] = useState(15); // Timer starts at 30 seconds
+    const [timer, setTimer] = useState(30); // Timer starts at 30 seconds
     const [gameOver, setGameOver] = useState(false);
     const [gameEnded, setGameEnded] = useState(false); // Flag to check if game has ended
     const scoreRef = useRef(score); // Ref to hold the latest score
